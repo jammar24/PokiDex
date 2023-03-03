@@ -1,0 +1,191 @@
+
+.card {
+  background:url('https://wallpaperaccess.com/full/2248245.jpg') ;
+  background-size:cover;
+   margin-bottom:6em;
+  width: 15em;
+  border-radius: 5% / 3.5%;
+  box-shadow: 
+  7px 7px 10px -5px rgb(253, 255, 192), 
+  -7px -7px 10px -5px      rgb(0, 128, 111), 
+    -5px -5px 5px -5px  rgb(253, 255, 192), 
+    5px 5px 5px -5px      rgb(0, 128, 111);
+  transition: transform 0.5s ease, box-shadow 0.2s ease;
+  will-change: transform, filter;
+  
+}
+
+
+.card:hover {
+  box-shadow: 
+    -7px -7px 10px -5px  rgb(0, 128, 111), 
+    7px 7px 10px -5px rgb(253, 255, 192), 
+    0 0 13px 4px rgba(34, 32, 32, 0.3),
+    12px 55px 35px -20px rgba(0, 0, 0, 0.213);
+}
+
+.card__header {
+    height: 190px;
+    position: relative;
+    background-color: #5E736C;
+    margin-bottom: 1.5em;
+    border-radius:1em 1em 0em 0em;
+}
+
+.card__name {
+  margin-top: 0.1em;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.card__type {
+  display: flex;
+  text-transform: capitalize;
+  justify-content: center;
+  gap: 1.2em;
+}
+.card__type-list,li {
+  margin-left: 0.9em;
+  text-transform: capitalize;
+  color: rgb(19, 9, 9);
+  gap:0.9em;
+}
+
+
+.card__img {
+   width:  70%;
+   position: absolute;
+   margin-top:-0vh;
+  left :19vh;
+}
+
+  
+  .fire {
+      color: #ce7258;
+  }
+  .fire1 {
+      background: linear-gradient(176.37deg, #a23234 -32.26%, #b75d3c 22.55%, #dbad39 125.72%);
+  }
+  .grass {
+      color: #1a553b;
+  }
+  .grass1 {
+      background: linear-gradient(178.92deg, #17acaa 0.92%, #256147 47.96%, #8d9e66 99.08%);
+  }
+  .water {
+      color: #0d59bc;
+  }
+  .water1 {
+      background: linear-gradient(179.57deg, #7ca5d8 -70.14%, #143157 56.16%, #0a65dc 214.85%);
+  } 
+  .bug {
+      color: #47a345;
+  }
+  .bug1 {
+      background: linear-gradient(177.56deg, #31b52f -58.92%, #a8dfa7 16.57%, #3ec33c 209.53%);
+  }
+  .poison {
+      color: #815ea3;
+  }
+  .poison1 {
+    background: linear-gradient(181.51deg, #e3a0ae -6.44%, #8d558e 121.95%, #84438b 186.11%); 
+  }
+  .normal {
+      color: #380e16;
+  }
+  .normal1 {
+      background: linear-gradient(181.51deg, #c29aa3 -6.44%, #965892 121.95%, #400613 186.11%); 
+  }
+  .rock {
+      color: #84c2c6;
+  }
+  .rock1 {
+    background: linear-gradient(181.51deg, #2c6375 -6.44%, #12346b 121.95%, #094c5b 186.11%);
+}
+  .ground {
+      color: #82540f;
+  }
+  .ground1 {
+    background: linear-gradient(181.51deg, #7d440f -6.44%, #b58816 121.95%, #a86f06 186.11%);
+}
+  .flying {
+      color: #437d8e;
+  }
+  .flying1 {
+    background: linear-gradient(181.51deg, #7ce7cb -6.44%, #164049 121.95%, #80c4d2 186.11%);
+}
+  .fighting {
+      color: #aa6a5a;
+  }
+  .fighting1 {
+    background: linear-gradient(181.51deg, #8bb333 -6.44%, #792436 121.95%, #6fae81 186.11%);
+}
+  .ghost {
+      color: #787a9b;
+  }
+  .ghost1 {
+    background: linear-gradient(181.51deg, #ac9bdf -6.44%, #7234b1 121.95%, #a020e5 186.11%);
+}
+  .steel {
+      color: #8ca99f;
+  }
+  .steel1 {
+    background: linear-gradient(181.51deg, #8b7b7f -6.44%, #879c46 121.95%, #aaf94a 186.11%);
+}
+  .electric {
+      color: #3639db;
+  }
+  .electric1 {
+    background: linear-gradient(181.51deg, #2e2ee6 -6.44%, #e9bc18 121.95%, #2316ba 186.11%);
+}
+  .psychic {
+      color: #5b234a;
+  }
+  .psychic1 {
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+
+  }
+  .ice {
+      color: #87b7cb;
+  }
+  .ice1 {
+    background: linear-gradient(181.51deg, #044387 -6.44%, #2e8aec 121.95%, #0a7893 186.11%);
+
+  }
+  .dragon {
+      color: #885734;
+  }
+  .dragon1 {
+    background: linear-gradient(181.51deg, #a65d18 -6.44%, #eb5510 121.95%, #d75413 186.11%);
+
+  }
+  .dark {
+      color: #19342b;
+  }
+  .dark1 {
+    background: linear-gradient(181.51deg, #706c6d -6.44%, #173d22 121.95%, #456242 186.11%);
+}
+  .fairy {
+      color: #8e6ea6;
+  }
+  .fairy1 {
+    background: linear-gradient(181.51deg, #c989de -6.44%, #be5de4 121.95%, #e7a4ef 186.11%);
+
+  }
+  .unknown {
+      color: #9b2152;
+  }
+  .unknown1 {
+    background: linear-gradient(181.51deg, #bc5a6f -6.44%, #562530 121.95%, #dc1842 186.11%);
+}
+  .shadow {
+      color: #1e290de4;
+  }
+  .shadow1 {
+    background: linear-gradient(181.51deg, #3d5431 -6.44%, #141e09 121.95%, #776e70 186.11%);
+}
+
+  
+  
+

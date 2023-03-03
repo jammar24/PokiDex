@@ -1,0 +1,100 @@
+
+/*home*/
+.home {
+    position: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    width: 100%;
+    height: 100px;
+}
+
+.home__h1 {
+  display: flex;
+  justify-content: center;
+ color: crimson;
+ width: 0;
+  overflow: hidden;
+  margin-bottom:0.88em;
+  font-size: 2rem;
+  margin:0  auto;
+  font-family: "Courier New";
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+.home__p{
+color: azure;
+display: flex;
+justify-content: center;
+}
+.home__form {
+    display: flex;
+    justify-content: center;
+    height: 1.8em;
+    margin-bottom: 5.9em;
+    margin-top: 1em;   
+}
+.home__input {
+    width: 100%;
+    max-width: 200px;
+    padding-left: 0.5em;
+    border-radius: 1em 0em 0em 1em;
+    background: rgb(255, 247, 251);
+    background: linear-gradient(90deg, rgb(227, 214, 220) 0%, rgb(228, 234, 240) 100%);
+
+}
+.home__btn {
+    width: 80px;
+    border-radius: 1em 1em 1em 1em;
+    background: rgb(246, 10, 10);
+    background: linear-gradient(90deg, rgb(227, 69, 6) 0%,
+     rgb(236, 17, 20) 100%);
+     color: rgb(11, 13, 15);
+     font-size: 1.1rem;
+     height: 1.6em;
+     width: 6.9em;
+     border: none;
+     margin-left: -0.5em;
+     cursor: pointer;
+     font-weight: 700;
+     transition: font-weigth 100ms ease, filter 100ms ease;
+     
+}
+.home__btn:hover{
+    font-weight: 700;
+    filter:brightness(1.1) ;
+    color: rgb(233, 179, 16);
+}
+
+/*video*/ 
+.back__video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media( min-aspect-ratio: 16/9 ){
+    .back__video{
+        width: 100%; 
+        height: auto;
+    }
+}
+@media( max-aspect-ratio: 16/9 ){
+    .back__video{
+        width: auto; 
+        height: 100%;
+    }
+}
